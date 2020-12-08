@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tradiciones y Costumbres Mexicanas</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      color:black;
+      background-color: lightblue;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 350px;
+    }
+    summary {
+      cursor: pointer;
+      outline: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Tradiciones y Costumbres Mexicanas</h1>
+    </section>
+    <nav>
+
+      <details open>
+        <summary>
+          NUESTRO MEXICO
+        </summary>
+        <ol>
+          <li>DIA DE MUERTOS</li>
+          <li>BAILABLES Y DANZA PREHISPANICA</li>
+          <li>CENTROS TURISTICOS</li>
+          <li>ZONAS ARQUEOLOGIOCAS</li>
+        </ol>
+      </details>
+      <details>
+        <summary>
+          DIA DE MUERTOS
+        </summary>
+        <ol>
+
+          <li>Estados</li>
+          <li>Municipios</li>
+          <li>Altares</li>
+          <li>Tradiciones</li>
+          <li>Costumbres</li>
+          <li>Calaberas</li>
+          <li>Centros Ceremoniales</li>
+          <li>Isla de Hanitzio</li>
+        </ol>
+      </details>
+
+      <details>
+        <summary>
+          BAILABLES Y DANZA PREHISPANICA
+        </summary>
+        <ol>
+          <li></li>
+          <li>Jarabe Tapatío, Jalisco</li>
+          <li>Polka Norteña, Estados del Norte de México</li>
+          <li>La Bamba, Veracruz</li>
+          <li>Flor de Piña, Oaxaca</li>
+          <li>Danza de los Viejitos, Michoacán</li>
+          <li>Danza del Venado, Sonora</li>
+          <li>Jarana, Yucatán</li>
+          <li>Danza de la cabeza del cochino</li>
+          <li>Danza de la pesca de la sardina</li>
+          <li>Danza de la pesca de la sardina</li>
+          <li>Danza de David y Goliat</li>
+          <li>Danza de los Tecuanes</li>
+          <li>Guelaguetza</li>
+        </ol>
+      </details>
+      <details>
+        <summary>
+          <li>CENTROS TURISTICOS</li>
+        </summary>
+        <ol>
+          <li>Pueblos Magicos</li>
+          <li>Playas</li>
+          <li>Montaña</li>
+          <li>Huasteca</li>
+          <li>El Chepe</li>
+          <li>Tequila Express</li>
+          <li>Zonas Arqueologicas</li>
+          <li>Lagos y Lagunas</li>
+        </ol>
+      </details>
+
+
+      <details>
+        <summary>
+          ZONAS ARQUEOLOGIOCAS
+        </summary>
+        <ol>
+          <li>Monte Alban, Oaxaca</li>
+          <li>Chichén Itza, Yucatán</li>
+          <li>Palenque, Chiapas</li>
+          <li>Uxmal, Yucatán</li>
+          <li>Tajín, Veracruz</li>
+          <li>Teotihuacán, Estado de México</li>
+          <li>Paquimé, Chihuahua</li>
+          <li>Yaxchilán, Chiapas</li>
+          <li>Cholula, Puebla</li>
+          <li>Tulum, Quintana Roo</li>
+        </ol>
+      </details>
+      <details>
+        <summary>
+          ACERCA DE NOSOTROS
+        </summary>
+        <ol>
+          <li>Nuestra Empresa</li>
+          <li>Quienes Somos</li>
+          <li>Nuestros Servicios</li>
+          <li>Nuestros Socios</li>
+        </ol>
+      </details>
+
+      <details>
+        <summary>
+          PROMOCIONES
+        </summary>
+        <ol>
+          <li>Rentas Vacacionales</li>
+          <li>Descuentos a Grupos</li>
+          <li>Descuentos INAPAM</li>
+          <li>Descuentos a Maestros</li>
+          <li>Descuentos a estudiantes</li>
+        </ol>
+      </details>
+
+  <details>
+    <summary>
+      CONTACTO
+    </summary>
+    <ol>
+      <li>Correo Electronico</li>
+      <li>Telefono</li>
+      <li>Redes Sociales</li>
+      <li>Chat Online</li>
+    </ol>
+  </details>
+</nav>
+</main>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.3y3OuQZZE5dmgPSa07vzCQHaHa%26pid%3DApi&f=1" border="0" width="750px" height="800">
+
+  <script>
+    const $detailsList = document.querySelectorAll('details')
+    $detailsList.forEach(($details) => {
+      $details.querySelector('summary').addEventListener('click', expand)
+    })
+    function expand() {
+      $detailsList.forEach(($details) => {
+        $details.removeAttribute('open')
+      })
+    }
+  </script>
+  <div>
+    <footer>
+      <div class="contenido">
+        <p>Author: Francisco Calva, Edgar Barrón, Christian Benítez. </p>
+
+        <ul class="lista-contacto">
+          <li><a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a></li>
+          <li><a href="http://udgvirtual.udg.mx" target="_blank">UDGVirtual</a></li>
+          <li><a href="udg.mx" target="_blank">Universidad de Guadalajara</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
